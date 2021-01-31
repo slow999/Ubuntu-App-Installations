@@ -17,6 +17,11 @@ https://www.python.org/downloads/release/python-377/
 
 
 ## Installation
+0. You may need to install the following essential packages before you continue.
+```shell
+sudo apt-get update; sudo apt-get install --no-install-recommends make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
+```
+
 1.Start terminal and cd into the "Python-3.7.7" folder.
 
 2.Run command below. The package would check a bunch of env and collect preps info. Let it finish.
